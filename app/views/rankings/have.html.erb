@@ -18,7 +18,7 @@
               </div>
             </div>
             <div class="panel-footer">
-              <p class="text-center"><%= index+1 %>位: <%= @ranking_counts[item.id] %> Haves</p>
+              <p class="text-center"><%= index+1 %>位: <%= @ranking_counts[item.id] %> Have<% if @ranking_counts[item.id] > 1 %>s<% end %></p>
             </div>
           </div>
         </div>
